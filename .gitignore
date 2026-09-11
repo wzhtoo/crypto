@@ -1,0 +1,22 @@
+# 1. Security & Sensitive Files
+.env
+.env.local
+*.pem
+*.key
+
+# 2. Data & Heavy Files
+*.xlsx
+*.xls
+*.csv
+~$*
+
+# 3. OS & Editor Junk Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 4. Logs & Temp Files
+*.log
+*.tmp
